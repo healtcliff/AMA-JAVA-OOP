@@ -10,8 +10,7 @@ class User{
 	}
 	/* instruction : withdraw
 	 * " subtracting amount to current balance and then return it to the current users balance
-	 * 1 arguments been using
-	 * ctto for Arjhay frias */
+	 * 1 arguments been usings */
 	public int withdraw(int amount) {
 		if (amount>this.balance) {
 			System.out.println("Unable to proces withdrawal");
